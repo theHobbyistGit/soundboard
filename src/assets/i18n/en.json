@@ -1,7 +1,9 @@
 {
   "COMPONENTS": {
-    "TOOLBAR": {
-        "TITLE": "Soundboard v0.0.1"
+    "FIRSTACTIONS": {
+        "WELCOME": "Welcome! Choose your next step...",
+        "LOAD": "Load file",
+        "NEW": "Start new scene"
     }
   },
   "PAGES": {

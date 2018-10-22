@@ -7,7 +7,20 @@
 
 @import './variables.scss';
 
+@font-face {
+  font-family: standardFont;
+  src: url('/assets/font/typo/Lato-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: standardFont;
+  src: url('/assets/font/typo/Lato-Bold.ttf');
+  font-weight: bold;
+}
+
 * {
+  font-family: standardFont, Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }

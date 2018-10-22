@@ -28,6 +28,11 @@
         grid-template-rows: 1fr;
         cursor: pointer;
 
+        &:hover {
+            background-color:#000 ;
+            color: $font-inverted-color;
+        }
+
         .icon {
             font-size: 100px;
         }

@@ -22,10 +22,24 @@
         border-radius: 10px;
         text-align: center;
         height: 180px;
+        max-width: 180px;
         padding: 10px;
+        display: grid;
+        grid-template-rows: 1fr;
+        cursor: pointer;
 
         .icon {
             font-size: 100px;
+        }
+
+        &-subheadline {
+            font-size: $font-size-md;
+            font-weight: bold;
+        }
+
+        &-subtext {
+            font-size: $font-size-sm;
+            color: $font-light-color;
         }
     }
 }

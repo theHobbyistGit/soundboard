@@ -3,12 +3,9 @@
     "FIRSTACTIONS": {
         "WELCOME": "Welcome! Choose your next step...",
         "LOAD": "Load file",
-        "NEW": "Start new scene"
+        "LOADSUBTEXT": "Load a soundboard file, to use a preconstructed set of music and sounds.",
+        "NEW": "Start new scene",
+        "NEWSUBTEXT": "Start with a new soundboard file, assembling music and sounds for your needs."
     }
-  },
-  "PAGES": {
-      "HOME": {
-          "TITLE": "App works !"
-      }
   }
 }

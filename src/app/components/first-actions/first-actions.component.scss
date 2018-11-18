@@ -30,7 +30,11 @@
 
         &:hover {
             background-color:#000 ;
-            color: $font-inverted-color;
+            .icon, 
+            .infoBox-item-subheadline, 
+            .infoBox-item-subtext {
+                color: $font-inverted-color;
+            }
         }
 
         .icon {

@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class FirstActionsComponent {
 
+  private showFirstActions = true;
+
   constructor() { }
+
+  public closeFirstActions(): void {
+    this.showFirstActions = false;
+  }
 
 }

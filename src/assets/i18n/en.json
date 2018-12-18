@@ -1,7 +1,11 @@
 {
-  "PAGES": {
-      "HOME": {
-          "TITLE": "App works !"
-      }
+  "COMPONENTS": {
+    "FIRSTACTIONS": {
+        "WELCOME": "Welcome! Choose your next step...",
+        "LOAD": "Load file",
+        "LOADSUBTEXT": "Load a soundboard file, to use a preconstructed set of music and sounds.",
+        "NEW": "Start new scene",
+        "NEWSUBTEXT": "Start with a new soundboard file, assembling music and sounds for your needs."
+    }
   }
 }

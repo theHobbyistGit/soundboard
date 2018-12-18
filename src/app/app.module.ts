@@ -13,12 +13,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { ElectronService } from './providers/electron.service';
+import { ElectronService } from './services/electron/electron.service';
 
 import { WebviewDirective } from './directives/webview.directive';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { FirstActionsComponent } from './components/first-actions/first-actions.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -29,6 +31,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
+    ToolbarComponent,
+    FirstActionsComponent,
     WebviewDirective
   ],
   imports: [

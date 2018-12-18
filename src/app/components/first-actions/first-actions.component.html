@@ -1,0 +1,13 @@
+<div class="infoBox" *ngIf="showFirstActions">
+    <h1 class="infoBox-headline">{{ 'COMPONENTS.FIRSTACTIONS.WELCOME' | translate}}</h1>
+    <div class="infoBox-item" (click)="closeFirstActions()">
+        <i class="icon icon-folder-open"></i>
+        <p class="infoBox-item-subheadline">{{ 'COMPONENTS.FIRSTACTIONS.LOAD' | translate}}</p>
+        <p class="infoBox-item-subtext">{{ 'COMPONENTS.FIRSTACTIONS.LOADSUBTEXT' | translate}}</p>
+    </div>
+    <div class="infoBox-item" (click)="closeFirstActions()">
+        <i class="icon icon-doc-inv"></i>
+        <p class="infoBox-item-subheadline">{{ 'COMPONENTS.FIRSTACTIONS.NEW' | translate}}</p>
+        <p class="infoBox-item-subtext">{{ 'COMPONENTS.FIRSTACTIONS.NEWSUBTEXT' | translate}}</p>
+    </div>
+</div>

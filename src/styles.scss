@@ -1,7 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-html, body {
+@import url('/assets/font/css/animation.css');
+@import url('/assets/font/css/fontello-codes.css');
+@import url('/assets/font/css/fontello-embedded.css');
+@import url('/assets/font/css/fontello-ie7-codes.css');
+@import url('/assets/font/css/fontello-ie7.css');
+@import url('/assets/font/css/fontello.css');
+
+@import './variables.scss';
+
+@font-face {
+  font-family: standardFont;
+  src: url('/assets/font/typo/Lato-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: standardFont;
+  src: url('/assets/font/typo/Lato-Bold.ttf');
+  font-weight: bold;
+}
+
+* {
+  font-family: standardFont, Arial, Helvetica, sans-serif;
+  color: $font-standard-color;
   margin: 0;
   padding: 0;
+}
 
+/* You can add global styles to this file, and also import other style files */
+html, body { 
   height: 100%;
+  background: $background-color-standard-mode;
+
+  .editMode {
+    background-color: $background-color-edit-mode;
+    background-image:
+      linear-gradient($background-color-edit-mode-thick-lines 2px, transparent 2px),
+      linear-gradient(90deg, $background-color-edit-mode-thick-lines 2px, transparent 2px),
+      linear-gradient($background-color-edit-mode-thin-lines 1px, transparent 1px),
+      linear-gradient(90deg, $background-color-edit-mode-thin-lines 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  }
 }
